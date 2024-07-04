@@ -1,6 +1,6 @@
 javascript:(function() {
     var orderNoteDiv = document.querySelector('p.order_note');
-    var orderNoteContent = orderNoteDiv ? orderNoteDiv.textContent.trim() : "Nessuna nota fornita dal cliente.";
+    var orderNoteContent = orderNoteDiv ? orderNoteDiv.textContent.trim() : "Hai sbagliato pagina.. non funziona qui!!";
     var noteDivs = document.querySelectorAll('div.note_content');
     var uniqueContents = new Set();
 
