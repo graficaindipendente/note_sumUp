@@ -33,7 +33,7 @@ javascript:(function() {
         <div id="customAlertOverlay" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5); display: flex; align-items: center; justify-content: center; z-index: 10000;">
             <div id="customAlertContent" style="background: #FDFDC9; padding: 20px; width: 80%; max-width: 800px; height: 800px; overflow-y: auto; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); position: relative;">
                 <div style="position: absolute; top: 10px; right: 10px; font-size: 9px; color: #888;">
-<b>v1.12 BETA</b> <i>2024© AleP</i></div>
+<a href="https://github.com/graficaindipendente/riassumi_urgenza/edit/main/riassumi_urgenza.js"><b>v1.12 BETA</b> <i>2024© AleP</i></div></a>
                 <h3>${orderNoteContent}</h3>
                 <hr>
                 <h3>Note interne:</h3>
