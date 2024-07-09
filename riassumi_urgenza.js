@@ -11,6 +11,7 @@ javascript:(function() {
                         !text.toLowerCase().includes("pronto-per-produzione") &&
                         !text.startsWith("Livelli del magazzino") &&
                         !text.startsWith("La commissione") &&
+                                   !text.toLowerCase().includes("rifacimento") &&
             !text.startsWith("Lo stato") &&
             !text.startsWith("Stato") &&
             !text.startsWith("E-mail") &&
