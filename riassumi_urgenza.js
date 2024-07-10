@@ -6,23 +6,26 @@ javascript:(function() {
 
     noteDivs.forEach(function(div) {
         var text = div.textContent.trim();
-        if (!text.toLowerCase().includes("parziale") &&
-            !text.toLowerCase().includes("check-ok") &&
-                        !text.toLowerCase().includes("pronto-per-produzione") &&
-                        !text.startsWith("Livelli del magazzino") &&
-                        !text.startsWith("La commissione") &&
-                                   !text.toLowerCase().includes("rifacimento") &&
-                        !text.startsWith("Rimborsato") &&
-            !text.startsWith("Lo stato") &&
-            !text.startsWith("Stato") &&
-            !text.startsWith("E-mail") &&
-            !text.startsWith("Dati") &&
-            !text.startsWith("Transazione") &&
-            !text.startsWith("Stripe") &&
-            !text.startsWith("Notifica") &&
-            !text.startsWith("In attesa di pagamento") &&
-            !text.startsWith("[GLS") &&
-            !text.startsWith("PayPal")) {
+        if (
+!text.toLowerCase().includes("parziale") &&
+!text.toLowerCase().includes("aggiornato da") &&
+!text.toLowerCase().includes("check-ok") &&
+!text.toLowerCase().includes("pronto-per-produzione") &&
+!text.("Livelli del magazzino") &&
+!text.startsWith("La commissione") &&
+!text.startsWith("La commissione") &&
+!text.toLowerCase().includes("rifacimento") &&
+!text.startsWith("Rimborsato") &&
+!text.startsWith("Lo stato") &&
+!text.startsWith("Stato") &&
+!text.startsWith("E-mail") &&
+!text.startsWith("Dati") &&
+!text.startsWith("Transazione") &&
+!text.startsWith("Stripe") &&
+!text.startsWith("Notifica") &&
+!text.startsWith("In attesa di pagamento") &&
+!text.startsWith("[GLS") &&
+!text.startsWith("PayPal")) {
             uniqueContents.add(text);
         }
     });
