@@ -11,10 +11,10 @@ javascript:(function() {
 !text.toLowerCase().includes("aggiornato da") &&
 !text.toLowerCase().includes("check-ok") &&
 !text.toLowerCase().includes("pronto-per-produzione") &&
-!text.toLowerCase().includes("Livelli del magazzino") &&
-!text.startsWith("Livelli di magazzino") &&
+!text.startsWith("Livelli del magazzino") &&
 !text.startsWith("La commissione") &&
 !text.toLowerCase().includes("rifacimento") &&
+!text.startsWith("Autenticazione") &&
 !text.startsWith("Rimborsato") &&
 !text.startsWith("Lo stato") &&
 !text.startsWith("Stato") &&
