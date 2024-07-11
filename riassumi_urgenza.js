@@ -12,7 +12,7 @@ javascript:(function() {
 !text.toLowerCase().includes("check-ok") &&
 !text.toLowerCase().includes("pronto-per-produzione") &&
 !text.toLowerCase().includes("Livelli del magazzino") &&
-!text.startsWith("La commissione") &&
+!text.startsWith("Livelli di magazzino") &&
 !text.startsWith("La commissione") &&
 !text.toLowerCase().includes("rifacimento") &&
 !text.startsWith("Rimborsato") &&
