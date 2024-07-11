@@ -11,7 +11,7 @@ javascript:(function() {
 !text.toLowerCase().includes("aggiornato da") &&
 !text.toLowerCase().includes("check-ok") &&
 !text.toLowerCase().includes("pronto-per-produzione") &&
-!text.("Livelli del magazzino") &&
+!text.toLowerCase().includes("Livelli del magazzino") &&
 !text.startsWith("La commissione") &&
 !text.startsWith("La commissione") &&
 !text.toLowerCase().includes("rifacimento") &&
