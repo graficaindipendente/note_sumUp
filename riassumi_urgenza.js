@@ -19,6 +19,7 @@ javascript:(function() {
 !text.startsWith("Rimborsato") &&
 !text.startsWith("Lo stato") &&
 !text.startsWith("Stato") &&
+!text.startsWith("Item") &&
 !text.startsWith("E-mail") &&
 !text.startsWith("Dati") &&
 !text.startsWith("Transazione") &&
