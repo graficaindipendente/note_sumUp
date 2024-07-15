@@ -15,6 +15,7 @@ javascript:(function() {
 !text.startsWith("La commissione") &&
 !text.toLowerCase().includes("rifacimento") &&
 !text.startsWith("Autenticazione") &&
+!text.startsWith("Pagamento") &&
 !text.startsWith("Rimborsato") &&
 !text.startsWith("Lo stato") &&
 !text.startsWith("Stato") &&
